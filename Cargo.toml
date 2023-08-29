@@ -7,7 +7,7 @@ build = "build.rs"
 
 [dependencies]
 libc = "0.2.62"
-nix = "0.19"
+nix = "0.20"
 tokio = { version = "0.2", default-features = false, features = [
     "macros",
     "rt-core",
